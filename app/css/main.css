@@ -1,0 +1,95 @@
+::selection {
+ background:transparent;
+}
+#ce {
+	margin-bottom: 10px; 
+  }
+  [contenteditable="true"] {outline:none;}
+  [contenteditable="true"]:hover {  }
+   [contentEditable=true]:empty:not(:focus)::before{
+        content:attr(placeholder);
+		float: left;
+		margin-left: 5px;
+		color: gray;
+    }
+
+  .CodeMirror
+  {
+	 font-size: 1.14em;
+	 height: auto;
+	 line-height: 1.2;
+	
+  }
+  .CodeMirror-scroll
+  {
+	 min-height: 50px;
+  }
+  .coder{
+	  background:#f4f4f4;
+	  min-height: 50px;
+	  padding-left:15px;
+	  padding-top:2px;
+	  border-left:5px solid #eaeaea;
+	  margin-top:5px;
+	  margin-bottom:5px;
+  }
+  .output{
+	padding:5px;
+  }
+  .cmirror{
+	padding:5px;
+  }
+  .left-pane{
+	background:#555;
+	color:#eee;
+	float:left;
+	width:17%;
+	height:100%;
+	position:fixed;
+	padding:5px;
+	overflow-y:scroll;
+  }
+  .right-pane{
+	padding:5px;
+	padding-left:10px;
+	width:83%;
+	float:right;
+  }
+  .note-overview{
+	border-bottom:1px #bbc solid;
+	margin-bottom:5px;
+	padding:5px;
+  }
+  .menu{
+	margin-top:5px;
+	padding:5px;
+  }
+  .selected{
+	font-size: 14px;
+    font-weight: bold;
+    color: antiquewhite;
+  }
+  .menu-label{
+	cursor:pointer;
+	text-transform:none;
+	font-size:14px;
+  }
+  .btn-toggle{
+	margin:5px;
+	margin-left:1px;
+  }
+  .eval-success{
+	color:green;
+	margin:2px;
+  }
+  .error{
+	color:red;
+	margin:2px;
+  }
+  .repl-box{
+      margin-top:8px;
+      
+  }
+  .button{
+      margin-right:5px;
+  }

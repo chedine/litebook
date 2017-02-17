@@ -1,0 +1,6 @@
+- npm install
+- lein do clean
+- lein do clean cljsbuild once main app
+- lein figwheel
+- lein do clean, with-profile production cljsbuild once
+- epi

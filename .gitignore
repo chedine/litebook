@@ -1,0 +1,7 @@
+node_modules
+releases
+target
+.lein-repl-history
+.nrepl-port
+figwheel_server.log
+app/js/
